@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A22E28E1269B7C8700E6922B /* LengthConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22E28E0269B7C8700E6922B /* LengthConverterViewController.swift */; };
+		A2AB64D82693B18D00E168F9 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB64D72693B18D00E168F9 /* ConverterViewController.swift */; };
+		A2B7A6CC269C9EEE001858DB /* VolumeConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A6CB269C9EEE001858DB /* VolumeConverterViewController.swift */; };
+		A2B7A6CF269CA2CE001858DB /* TemperatureConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A6CE269CA2CE001858DB /* TemperatureConverterViewController.swift */; };
 		A2F24E34269252EA00390DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F24E33269252EA00390DDF /* AppDelegate.swift */; };
 		A2F24E36269252EA00390DDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F24E35269252EA00390DDF /* SceneDelegate.swift */; };
 		A2F24E38269252EA00390DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F24E37269252EA00390DDF /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A22E28E0269B7C8700E6922B /* LengthConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthConverterViewController.swift; sourceTree = "<group>"; };
+		A2AB64D72693B18D00E168F9 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		A2B7A6CB269C9EEE001858DB /* VolumeConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeConverterViewController.swift; sourceTree = "<group>"; };
+		A2B7A6CE269CA2CE001858DB /* TemperatureConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterViewController.swift; sourceTree = "<group>"; };
 		A2F24E30269252EA00390DDF /* MetricImperialConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricImperialConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F24E33269252EA00390DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F24E35269252EA00390DDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +67,10 @@
 				A2F24E33269252EA00390DDF /* AppDelegate.swift */,
 				A2F24E35269252EA00390DDF /* SceneDelegate.swift */,
 				A2F24E37269252EA00390DDF /* ViewController.swift */,
+				A2AB64D72693B18D00E168F9 /* ConverterViewController.swift */,
+				A22E28E0269B7C8700E6922B /* LengthConverterViewController.swift */,
+				A2B7A6CB269C9EEE001858DB /* VolumeConverterViewController.swift */,
+				A2B7A6CE269CA2CE001858DB /* TemperatureConverterViewController.swift */,
 				A2F24E39269252EA00390DDF /* Main.storyboard */,
 				A2F24E3C269252EB00390DDF /* Assets.xcassets */,
 				A2F24E3E269252EB00390DDF /* LaunchScreen.storyboard */,
@@ -138,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F24E38269252EA00390DDF /* ViewController.swift in Sources */,
+				A2B7A6CC269C9EEE001858DB /* VolumeConverterViewController.swift in Sources */,
 				A2F24E34269252EA00390DDF /* AppDelegate.swift in Sources */,
+				A2B7A6CF269CA2CE001858DB /* TemperatureConverterViewController.swift in Sources */,
 				A2F24E36269252EA00390DDF /* SceneDelegate.swift in Sources */,
+				A22E28E1269B7C8700E6922B /* LengthConverterViewController.swift in Sources */,
+				A2AB64D82693B18D00E168F9 /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
